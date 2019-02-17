@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuHelp"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="FAQ"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuAbout"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="About"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menuArmReset"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Reset Arm"
+        app:showAsAction="always"/>
+
+</menu>

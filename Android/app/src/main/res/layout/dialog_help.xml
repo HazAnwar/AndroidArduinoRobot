@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="Frequently Asked Questions"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="I've been stuck on the loading screen for ages..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Please ensure that the robot is fully switched on, when it is on the lights on the Arduino board will flash blue. If there are no lights on the board, please check the battery is charged up and try again."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="How do I make the robot move forward?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Simply using the joystick on the screen, move the inner circle in the direction you would like the robot to move."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="How do I control the robot's arm?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Swipe up from the bottom of the screen, this will show the arm control panel which can be used to move the arm."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="How do I connect to the robot manually?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="Unfortunately sometimes our algorithms aren't compatible on all phones therefore you may need to connect manually. To do this you need to connect to the ROBOT WiFi network using the password 'abcd1234'."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="How do I reset the arm to back to its original state?"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="At the top of the screen, you can reset the arm to default values, please note this will NOT affect anything that is currently being held by the claw."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="The arm is making a clicking sound when I try to pick something up..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="The robot is designed to pick up small items, therefore if an item is too large or heavy the arm will start making a clicking sound. This means that the robot will not be able to pick up this article."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="The robot is not moving but the arm is..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="There could be an issue with the application not sending the right signals. Please close the application and re-open it to see if this fixes it. Additionally, check that the cables going from the motor are securely connected to the motor input on the board."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="The robot is moving but the arm is not..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="There could be an issue with the application not sending the right signals. Please close the application and re-open it to see if this fixes it. Additionally, check that the cables going from the arm servos are securely connected to the pins on the board."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="The robot is fully charged but is still not working..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="There could be an issue with the code on the Arduino. You can flash this yourself by downloading the relevant code from our website and flashing it using the Arduino IDE software which is available on their website (https://www.arduino.cc/). Alternatively, you can contact us as robytherobot@gmail.com, where we will be able to assist you further on this matter."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="I'm unable to see the live video feed..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="The live video feed will only work once the application and robot have been paired. If you are able to control the robot but not see the feed then please check that the camera is plugged into the Wi-Fi module. Failing that, please email our team at robytherobot@gmail.com who will be able to assist you further on this."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="The application keeps crashing..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="We apologise for any inconvenience caused by this. You can try to uninstall and reinstall the application as the first step. If this does not resolve the problem then please reach out to our team at robytherobot@gmail.com, who will be able to assist you further on this matter."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textStyle="italic|bold"
+            android:text="My question is not listed..."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="We strive to answer everything as clearly as possible, if we haven't covered your question then please feel free to reach out to our team at robytherobot@gmail.com, who will be able to assist you further."/>
+
+    </LinearLayout>
+
+</ScrollView>
